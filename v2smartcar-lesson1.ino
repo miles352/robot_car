@@ -19,6 +19,8 @@
 // #define MSDelayPerCM 17.77777
 #define MSDelayPerCM 18.45
 
+// https://osoyoo.com/2020/05/12/osoyoo-v2-1-robot-car-kit-lesson-1-basic-robot-car/
+
 /*motor control*/
 void forwards(int t = 0)  //Forward
 {
