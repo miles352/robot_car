@@ -101,21 +101,21 @@ void setMotorSpeed(int speed_L,int speed_R)
 //Pins initialize
 void initGPIO()
 {
-	pinMode(RightMotorDirPin1, OUTPUT); 
-	pinMode(RightMotorDirPin2, OUTPUT); 
-	pinMode(speedPinL, OUTPUT);  
+  pinMode(RightMotorDirPin1, OUTPUT); 
+  pinMode(RightMotorDirPin2, OUTPUT); 
+  pinMode(speedPinL, OUTPUT);  
  
-	pinMode(LeftMotorDirPin1, OUTPUT);
+  pinMode(LeftMotorDirPin1, OUTPUT);
   pinMode(LeftMotorDirPin2, OUTPUT); 
   pinMode(speedPinR, OUTPUT); 
-	stop();
+  stop();
 }
 
 
 
 void setup()
 {
-	initGPIO();
+  initGPIO();
 	
   forwardsCM(50);
   
